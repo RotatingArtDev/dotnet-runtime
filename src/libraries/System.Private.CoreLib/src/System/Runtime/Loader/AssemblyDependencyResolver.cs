@@ -10,7 +10,6 @@ using System.Text;
 
 namespace System.Runtime.Loader
 {
-    [UnsupportedOSPlatform("android")]
     [UnsupportedOSPlatform("browser")]
     [UnsupportedOSPlatform("ios")]
     [UnsupportedOSPlatform("tvos")]

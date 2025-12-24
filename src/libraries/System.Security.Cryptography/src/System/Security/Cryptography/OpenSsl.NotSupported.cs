@@ -8,7 +8,6 @@ namespace System.Security.Cryptography
 {
     public sealed class DSAOpenSsl : DSA
     {
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -18,7 +17,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -28,7 +26,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -38,7 +35,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -48,7 +44,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -66,7 +61,6 @@ namespace System.Security.Cryptography
     }
     public sealed class ECDiffieHellmanOpenSsl : ECDiffieHellman
     {
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -76,7 +70,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -86,7 +79,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -96,7 +88,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -106,7 +97,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -123,7 +113,6 @@ namespace System.Security.Cryptography
     }
     public sealed class ECDsaOpenSsl : ECDsa
     {
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -133,7 +122,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -143,7 +131,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -153,7 +140,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -163,7 +149,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -179,7 +164,6 @@ namespace System.Security.Cryptography
     }
     public sealed class RSAOpenSsl : RSA
     {
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -189,7 +173,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -199,7 +182,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -209,7 +191,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -219,7 +200,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -235,7 +215,6 @@ namespace System.Security.Cryptography
     }
     public sealed class SafeEvpPKeyHandle : SafeHandle
     {
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -245,7 +224,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -255,7 +233,6 @@ namespace System.Security.Cryptography
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -263,7 +240,6 @@ namespace System.Security.Cryptography
         public static long OpenSslVersion =>
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -271,7 +247,6 @@ namespace System.Security.Cryptography
         public static SafeEvpPKeyHandle OpenPrivateKeyFromEngine(string engineName, string keyId) =>
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -279,7 +254,6 @@ namespace System.Security.Cryptography
         public static SafeEvpPKeyHandle OpenPublicKeyFromEngine(string engineName, string keyId) =>
             throw new PlatformNotSupportedException(SR.PlatformNotSupported_CryptographyOpenSSL);
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

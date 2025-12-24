@@ -17,7 +17,6 @@ namespace System.Security.Cryptography
         /// <exception cref="ArgumentNullException"><paramref name="pkeyHandle"/> is <c>null</c></exception>
         /// <exception cref="ArgumentException"><paramref name="pkeyHandle"/> <see cref="SafeHandle.IsInvalid" /></exception>
         /// <exception cref="CryptographicException"><paramref name="pkeyHandle"/> is not a valid enveloped <c>EC_KEY*</c></exception>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -50,7 +49,6 @@ namespace System.Security.Cryptography
         /// </remarks>
         /// <param name="handle">A pointer to an OpenSSL <c>EC_KEY*</c></param>
         /// <exception cref="ArgumentException"><paramref name="handle" /> is invalid</exception>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

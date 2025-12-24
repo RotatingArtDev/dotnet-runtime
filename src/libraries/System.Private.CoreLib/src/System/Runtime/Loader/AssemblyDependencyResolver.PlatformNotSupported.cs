@@ -6,7 +6,6 @@ using System.Runtime.Versioning;
 
 namespace System.Runtime.Loader
 {
-    [UnsupportedOSPlatform("android")]
     [UnsupportedOSPlatform("browser")]
     [UnsupportedOSPlatform("ios")]
     [UnsupportedOSPlatform("tvos")]

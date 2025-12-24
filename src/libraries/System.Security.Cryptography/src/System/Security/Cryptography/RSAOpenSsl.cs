@@ -9,7 +9,6 @@ namespace System.Security.Cryptography
 {
     public sealed partial class RSAOpenSsl : RSA
     {
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -33,7 +32,6 @@ namespace System.Security.Cryptography
         /// </remarks>
         /// <param name="handle">A pointer to an OpenSSL <c>RSA*</c></param>
         /// <exception cref="ArgumentException"><paramref name="handle" /> is invalid</exception>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -60,7 +58,6 @@ namespace System.Security.Cryptography
         ///   <paramref name="pkeyHandle"/> <see cref="Runtime.InteropServices.SafeHandle.IsInvalid" />
         /// </exception>
         /// <exception cref="CryptographicException"><paramref name="pkeyHandle"/> is not a valid enveloped <c>RSA*</c></exception>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

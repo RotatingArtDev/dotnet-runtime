@@ -24,7 +24,6 @@ namespace System.Security.Cryptography
 
         private Lazy<SafeDsaHandle>? _key;
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -34,7 +33,6 @@ namespace System.Security.Cryptography
         {
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
