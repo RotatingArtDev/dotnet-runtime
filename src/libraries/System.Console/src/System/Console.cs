@@ -36,7 +36,6 @@ namespace System
         private static PosixSignalRegistration? s_sigIntRegistration;
         private static PosixSignalRegistration? s_sigQuitRegistration;
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -63,7 +62,6 @@ namespace System
             }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -122,7 +120,6 @@ namespace System
                 }
                 return encoding;
             }
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
             set
@@ -166,7 +163,6 @@ namespace System
             }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -175,7 +171,6 @@ namespace System
             return ConsolePal.ReadKey(false);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -298,7 +293,6 @@ namespace System
 
         public static int CursorSize
         {
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
@@ -321,7 +315,6 @@ namespace System
 
         internal const ConsoleColor UnknownColor = (ConsoleColor)(-1);
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -331,7 +324,6 @@ namespace System
             set { ConsolePal.BackgroundColor = value; }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -341,7 +333,6 @@ namespace System
             set { ConsolePal.ForegroundColor = value; }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -352,7 +343,6 @@ namespace System
 
         public static int BufferWidth
         {
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
@@ -363,7 +353,6 @@ namespace System
 
         public static int BufferHeight
         {
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
@@ -394,7 +383,6 @@ namespace System
 
         public static int WindowWidth
         {
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
@@ -405,7 +393,6 @@ namespace System
 
         public static int WindowHeight
         {
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
@@ -429,7 +416,6 @@ namespace System
             ConsolePal.SetWindowSize(width, height);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -438,7 +424,6 @@ namespace System
             get { return ConsolePal.LargestWindowWidth; }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -451,14 +436,12 @@ namespace System
         {
             [SupportedOSPlatform("windows")]
             get { return ConsolePal.CursorVisible; }
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
             set { ConsolePal.CursorVisible = value; }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -468,7 +451,6 @@ namespace System
             set { SetCursorPosition(value, CursorTop); }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -483,7 +465,6 @@ namespace System
         /// <remarks>
         /// Columns are numbered from left to right starting at 0. Rows are numbered from top to bottom starting at 0.
         /// </remarks>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -496,7 +477,6 @@ namespace System
         {
             [SupportedOSPlatform("windows")]
             get { return ConsolePal.Title; }
-            [UnsupportedOSPlatform("android")]
             [UnsupportedOSPlatform("browser")]
             [UnsupportedOSPlatform("ios")]
             [UnsupportedOSPlatform("tvos")]
@@ -507,7 +487,6 @@ namespace System
             }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -534,7 +513,6 @@ namespace System
             ConsolePal.MoveBufferArea(sourceLeft, sourceTop, sourceWidth, sourceHeight, targetLeft, targetTop, sourceChar, sourceForeColor, sourceBackColor);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
         public static void Clear()
@@ -542,7 +520,6 @@ namespace System
             ConsolePal.Clear();
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -557,7 +534,6 @@ namespace System
             ConsolePal.SetCursorPosition(left, top);
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -600,7 +576,6 @@ namespace System
             }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -610,7 +585,6 @@ namespace System
             set { ConsolePal.TreatControlCAsInput = value; }
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -619,7 +593,6 @@ namespace System
             return ConsolePal.OpenStandardInput();
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public static Stream OpenStandardInput(int bufferSize)
         {
@@ -652,7 +625,6 @@ namespace System
             return ConsolePal.OpenStandardError();
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -712,7 +684,6 @@ namespace System
         // the inlined console writelines from them.
         //
         [MethodImplAttribute(MethodImplOptions.NoInlining)]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public static int Read()
         {
@@ -720,7 +691,6 @@ namespace System
         }
 
         [MethodImplAttribute(MethodImplOptions.NoInlining)]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public static string? ReadLine()
         {

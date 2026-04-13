@@ -12,7 +12,6 @@ namespace System.Security.Cryptography
     public sealed partial class RC2CryptoServiceProvider : RC2
     {
         [SuppressMessage("Microsoft.Security", "CA5351", Justification = "This is the implementation of RC2CryptoServiceProvider")]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public RC2CryptoServiceProvider()
         {

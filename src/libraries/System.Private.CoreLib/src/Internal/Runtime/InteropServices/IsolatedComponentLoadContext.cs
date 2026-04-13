@@ -14,7 +14,6 @@ namespace Internal.Runtime.InteropServices
     /// or IJW components loaded from native. It provides a load context that uses an <see cref="AssemblyDependencyResolver" /> to resolve the component's
     /// dependencies within the ALC and not pollute the default ALC.
     ///</summary>
-    [UnsupportedOSPlatform("android")]
     [UnsupportedOSPlatform("browser")]
     [UnsupportedOSPlatform("ios")]
     [UnsupportedOSPlatform("maccatalyst")]

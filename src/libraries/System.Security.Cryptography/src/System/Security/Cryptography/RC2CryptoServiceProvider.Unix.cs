@@ -18,7 +18,6 @@ namespace System.Security.Cryptography
         };
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA5351", Justification = "This is the implementation of RC2CryptoServiceProvider")]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public RC2CryptoServiceProvider()
         {

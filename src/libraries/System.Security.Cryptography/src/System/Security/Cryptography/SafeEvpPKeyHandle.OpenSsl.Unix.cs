@@ -14,7 +14,6 @@ namespace System.Security.Cryptography
         /// For OpenSSL 1.1+ this is the result of <code>OpenSSL_version_num()</code>,
         /// for OpenSSL 1.0.x this is the result of <code>SSLeay()</code>.
         /// </remarks>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

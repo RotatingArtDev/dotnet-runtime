@@ -17,7 +17,6 @@ namespace System.Security.Cryptography
         /// </summary>
         internal IntPtr ExtraHandle { get; private set; }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -27,7 +26,6 @@ namespace System.Security.Cryptography
         {
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -123,7 +121,6 @@ namespace System.Security.Cryptography
         ///     <code>ENGINE</code>.
         ///   </para>
         /// </remarks>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -176,7 +173,6 @@ namespace System.Security.Cryptography
         ///     <code>ENGINE</code>.
         ///   </para>
         /// </remarks>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -228,7 +224,6 @@ namespace System.Security.Cryptography
         ///     named <c>OSSL_PROVIDER</c>.
         ///   </para>
         /// </remarks>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

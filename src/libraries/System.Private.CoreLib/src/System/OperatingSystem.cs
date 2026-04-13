@@ -27,7 +27,7 @@ namespace System
 #elif TARGET_TVOS
         "TVOS"
 #elif TARGET_ANDROID
-        "ANDROID"
+        "LINUX"
 #elif TARGET_LINUX
         "LINUX"
 #elif TARGET_FREEBSD

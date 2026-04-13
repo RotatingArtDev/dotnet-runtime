@@ -14,7 +14,6 @@ namespace System.Net.NetworkInformation
         /// <summary>
         /// Gets a bool value that indicates whether this interface is configured to send name resolution queries to a Domain Name System (DNS) server.
         /// </summary>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("osx")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -24,7 +23,6 @@ namespace System.Net.NetworkInformation
         /// <summary>
         /// Gets the Domain Name System (DNS) suffix associated with this interface.
         /// </summary>
-        [UnsupportedOSPlatform("android")]
         public abstract string DnsSuffix { get; }
 
         /// <summary>
@@ -52,19 +50,16 @@ namespace System.Net.NetworkInformation
         /// <summary>
         /// The address is that of a Domain Name Service (DNS) server for the local computer.
         /// </summary>
-        [UnsupportedOSPlatform("android")]
         public abstract IPAddressCollection DnsAddresses { get; }
 
         /// <summary>
         /// Gets the network gateway addresses.
         /// </summary>
-        [UnsupportedOSPlatform("android")]
         public abstract GatewayIPAddressInformationCollection GatewayAddresses { get; }
 
         /// <summary>
         /// Gets the addresses for Dynamic Host Configuration Protocol (DHCP) servers.
         /// </summary>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("osx")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]
@@ -74,7 +69,6 @@ namespace System.Net.NetworkInformation
         /// <summary>
         /// Gets the list of Wins Servers registered with this interface
         /// </summary>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("osx")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

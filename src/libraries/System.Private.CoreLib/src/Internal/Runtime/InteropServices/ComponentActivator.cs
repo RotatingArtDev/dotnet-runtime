@@ -16,7 +16,6 @@ namespace Internal.Runtime.InteropServices
         private const string TrimIncompatibleWarningMessage = "Native hosting is not trim compatible and this warning will be seen if trimming is enabled.";
         private const string NativeAOTIncompatibleWarningMessage = "The native code for the method requested might not be available at runtime.";
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("maccatalyst")]
@@ -54,7 +53,6 @@ namespace Internal.Runtime.InteropServices
         /// <param name="functionHandle">Pointer where to store the function pointer result</param>
         [RequiresDynamicCode(NativeAOTIncompatibleWarningMessage)]
         [RequiresUnreferencedCode(TrimIncompatibleWarningMessage, Url = "https://aka.ms/dotnet-illink/nativehost")]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("maccatalyst")]
@@ -104,7 +102,6 @@ namespace Internal.Runtime.InteropServices
         /// <param name="loadContext">Extensibility parameter (currently unused)</param>
         /// <param name="reserved">Extensibility parameter (currently unused)</param>
         [RequiresDynamicCode(NativeAOTIncompatibleWarningMessage)]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("maccatalyst")]
@@ -137,7 +134,6 @@ namespace Internal.Runtime.InteropServices
         }
 
         [RequiresUnreferencedCode(TrimIncompatibleWarningMessage, Url = "https://aka.ms/dotnet-illink/nativehost")]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("maccatalyst")]
@@ -174,7 +170,6 @@ namespace Internal.Runtime.InteropServices
         /// <param name="loadContext">Extensibility parameter (currently unused)</param>
         /// <param name="reserved">Extensibility parameter (currently unused)</param>
         [RequiresDynamicCode(NativeAOTIncompatibleWarningMessage)]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("maccatalyst")]
@@ -279,7 +274,6 @@ namespace Internal.Runtime.InteropServices
         }
 
         [RequiresUnreferencedCode(TrimIncompatibleWarningMessage, Url = "https://aka.ms/dotnet-illink/nativehost")]
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

@@ -20,7 +20,6 @@ namespace System.Security.Cryptography
             new KeySizes(40, 128, 8)  // csp implementation only goes up to 128
         };
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public RC2CryptoServiceProvider()
         {

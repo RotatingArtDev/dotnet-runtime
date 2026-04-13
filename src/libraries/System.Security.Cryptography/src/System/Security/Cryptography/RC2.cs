@@ -21,7 +21,6 @@ namespace System.Security.Cryptography
             FeedbackSizeValue = BlockSizeValue;
         }
 
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         public static new RC2 Create()
         {

@@ -31,7 +31,6 @@ namespace System.Runtime.InteropServices
         /// Windows and on Unix platforms; <see cref="PosixSignal.SIGTERM"/> can only be canceled on Unix.
         /// On Unix, terminal configuration can be canceled for <see cref="PosixSignal.SIGCHLD"/> and <see cref="PosixSignal.SIGCONT"/>.
         /// </remarks>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("tvos")]

@@ -43,7 +43,6 @@ namespace System.Security.Cryptography
         /// <exception cref="ObjectDisposedException">
         ///   The handle in <paramref name="pkeyHandle" /> is already disposed.
         /// </exception>
-        [UnsupportedOSPlatform("android")]
         [UnsupportedOSPlatform("browser")]
         [UnsupportedOSPlatform("ios")]
         [UnsupportedOSPlatform("osx")]
